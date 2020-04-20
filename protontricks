@@ -18,7 +18,8 @@ import sys
 
 COMMON_STEAM_DIRS = [
     os.path.join(os.environ.get("HOME"), ".steam", "steam"),
-    os.path.join(os.environ.get("HOME"), ".local", "share", "Steam")
+    os.path.join(os.environ.get("HOME"), ".local", "share", "Steam"),
+    os.path.join(os.environ.get("HOME"), ".var", "app", "com.valvesoftware.Steam", "data", "Steam")
 ]
 
 
